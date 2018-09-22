@@ -1,0 +1,30 @@
+{
+  "name": "api-veiculos",
+  "version": "1.0.0",
+  "description": "API reserva de veículos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoaugustoandrade/api-veiculos.git"
+  },
+  "author": "Marco Antonio Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoaugustoandrade/api-veiculos/issues"
+  },
+  "homepage": "https://github.com/marcoaugustoandrade/api-veiculos#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
